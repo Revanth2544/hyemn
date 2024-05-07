@@ -1,0 +1,20 @@
+.slideshow-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.slide {
+  flex: 0 0 auto;
+  margin-right: -300px;
+  scroll-snap-align: center;
+}
+
+
+.slide img {
+  max-width: 90%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
